@@ -1,0 +1,62 @@
+[
+    {
+        "question": "Что выводит в консоль следующий код: console.log(typeof null);",
+        "options": ["'null'", "'object'", "'undefined'", "'number'"],
+        "answer": "'object'"
+    },
+    {
+        "question": "Какое значение имеет переменная 'x' после выполнения кода: var x = 10; x += 5;",
+        "options": ["5", "10", "15", "undefined"],
+        "answer": "15"
+    },
+    {
+        "question": "Какой метод используется для добавления новых элементов в конец массива?",
+        "options": ["push()", "pop()", "shift()", "unshift()"],
+        "answer": "push()"
+    },
+    {
+        "question": "Какой метод преобразует JSON-объект в строку?",
+        "options": ["JSON.stringify()", "JSON.parse()", "JSON.toString()", "JSON.objectify()"],
+        "answer": "JSON.stringify()"
+    },
+    {
+        "question": "Как объявить асинхронную функцию в JavaScript?",
+        "options": ["async function myFunction() {}", "function myFunction() async {}", "async: function myFunction() {}", "function async myFunction() {}"],
+        "answer": "async function myFunction() {}"
+    },
+    {
+        "question": "Что делает оператор '===' в JavaScript?",
+        "options": ["Сравнивает только значения", "Сравнивает только типы", "Сравнивает значения и типы", "Присваивает значение"],
+        "answer": "Сравнивает значения и типы"
+    },
+    {
+        "question": "Какое значение имеет переменная 'y' после выполнения кода: let y; console.log(y);",
+        "options": ["null", "0", "undefined", "NaN"],
+        "answer": "undefined"
+    },
+    {
+        "question": "Как можно получить доступ к первому элементу массива 'arr'?",
+        "options": ["arr.first()", "arr[0]", "arr[1]", "arr.get(0)"],
+        "answer": "arr[0]"
+    },
+    {
+        "question": "Какое значение вернет выражение: Boolean('false')",
+        "options": ["true", "false", "null", "undefined"],
+        "answer": "true"
+    },
+    {
+        "question": "Что делает метод 'Array.prototype.map()'?",
+        "options": ["Добавляет элемент в массив", "Удаляет элемент из массива", "Преобразует каждый элемент массива", "Возвращает индекс элемента в массиве"],
+        "answer": "Преобразует каждый элемент массива"
+    },
+    {
+        "question": "Какой из следующих методов не изменяет исходный массив?",
+        "options": ["splice()", "pop()", "shift()", "slice()"],
+        "answer": "slice()"
+    },
+    {
+        "question": "Какое значение вернет выражение: '5' + 3",
+        "options": ["8", "53", "NaN", "TypeError"],
+        "answer": "53"
+    }
+]
